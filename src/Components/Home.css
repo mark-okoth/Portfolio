@@ -1,11 +1,32 @@
-.Home{
-    background-image: url('../bgimg.jpg');
-    background-position: center;
-    object-fit: contain;
+.Home {
+  background-image: url("../bgimg.jpg");
+  background-position: center;
+  object-fit: contain;
+  width: 100vw;
+  height: 90vh;
+  background-blend-mode: multiply;
+  background-color: rgb(59 130 246 / 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 640px) {
+  .Home {
     width: 100vw;
-    height: 90vh;
-    background-blend-mode: multiply;
-    background-color:rgb(59 130 246 / 0.5);
-    background-size: cover;
-    background-repeat: no-repeat;
+  }
+  .Home .header {
+    font-size: 24px;
+    margin: 10px;
+  }
+  .content{
+      font-size: 16px;
+      margin: 10px;
+      width: 90vw;
+  }
+  .con{
+      display: flex;
+      align-items: flex-start;
+  }
+  .Home a{
+      margin: 10px;
+  }
 }
