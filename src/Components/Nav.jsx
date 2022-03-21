@@ -1,6 +1,7 @@
 import Logo from "../logo.svg";
 import React, { useState, useRef } from "react";
 import { Transition } from "@headlessui/react";
+import Resume from "./MarkResume.pdf";
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -19,12 +20,13 @@ function Nav() {
               </span>
             </a>
             <div className="flex md:order-2">
-              <button
-                type="button"
-                className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-              >
-                PROJECTS
-              </button>
+              <a href={Resume}>
+                <button
+                  type="button"
+                  className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >RESUME</button>
+              </a>
+
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 data-collapse-toggle="mobile-menu-4"
@@ -121,7 +123,10 @@ function Nav() {
           >
             {(e) => (
               <div className="md:hidden" id="mobile-menu">
-                <div e={e} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 uppercase">
+                <div
+                  e={e}
+                  className="px-2 pt-2 pb-3 space-y-1 sm:px-3 uppercase"
+                >
                   <a
                     href="#"
                     className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -147,7 +152,7 @@ function Nav() {
                     href="#"
                     className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
-                   CONTACT
+                    CONTACT
                   </a>
                 </div>
               </div>

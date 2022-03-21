@@ -1,0 +1,11 @@
+.Home{
+    background-image: url('../bgimg.jpg');
+    background-position: center;
+    object-fit: contain;
+    width: 100vw;
+    height: 90vh;
+    background-blend-mode: multiply;
+    background-color:rgb(59 130 246 / 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

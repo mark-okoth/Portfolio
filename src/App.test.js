@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen} from '@testing-library/react';
+import Nav from './Components/Nav';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+test('check for the navbar components elements', () => {
+  render(<Nav/>);
+  const ButtonElement = screen.getByText(/Projects/i);
+  expect(ButtonElement).toBeInTheDocument();
+})
