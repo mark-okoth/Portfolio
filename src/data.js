@@ -49,5 +49,7 @@ export const skills = [
   'TailwindCSS',
   'Git',
   'Material UI',
-  'Basics Android Development with Kotlin'
+  'Basics Android Development with Kotlin',
+  'C/AL & AL',
+  'Business Central ERP'
 ];

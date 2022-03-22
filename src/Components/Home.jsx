@@ -12,7 +12,7 @@ function Home() {
           <span> IT Technical Consultant</span>
         </p>
         <a
-          className="bg-blue-300 p-3 uppercase text-xs"
+          className="bg-blue-500 p-3 uppercase text-xs"
           href={"https://www.linkedin.com/in/mark-okoth-1b514115b/"}
           target={`_blank`}
         >
