@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Resume from "./MarkResume.pdf";
 function Nav() {
@@ -80,7 +80,7 @@ function Nav() {
               <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                 <li>
                   <a
-                    href="#skills"
+                    href={'/'}
                     className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                     aria-current="page"
                   >
@@ -97,7 +97,7 @@ function Nav() {
                 </li>
                 <li>
                   <a
-                    href={"/"}
+                    href={"#skills"}
                     className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     SKILLS
@@ -105,10 +105,10 @@ function Nav() {
                 </li>
                 <li>
                   <a
-                    href={"/"}
+                    href={"#projects"}
                     className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
-                    CONTACT
+                    PROJECTS
                   </a>
                 </li>
               </ul>
@@ -154,7 +154,7 @@ function Nav() {
                     href={"/"}
                     className="text-white hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
-                    CONTACT
+                    PROJECTS
                   </a>
                 </div>
               </div>

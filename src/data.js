@@ -1,34 +1,34 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Linkedin Clone",
+    subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    image: "https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg",
+    link: "https://github.com/mark-okoth",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "E-commerce Website",
+    subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
+    image: 'https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg',
     link: "https://reedbarger.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Gmail clone",
+    subtitle: "React and material UI",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
+    image: "https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg",
     link: "https://jsbootcamp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "E-Commerce Website",
+    subtitle: "Django",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
+    image: "https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg",
     link: "https://pythonbootcamp.com",
   },
 ];
