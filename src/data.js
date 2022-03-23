@@ -13,7 +13,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: 'https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg',
-    link: "https://reedbarger.com",
+    link: "https://github.com/mark-okoth",
   },
   {
     title: "Gmail clone",
@@ -21,7 +21,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg",
-    link: "https://jsbootcamp.com",
+    link: "https://github.com/mark-okoth",
   },
   {
     title: "E-Commerce Website",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "https://media.gcflearnfree.org/content/55e073847dd48174331f5193_01_17_2014/intro_inbox_gmail2.jpg",
-    link: "https://pythonbootcamp.com",
+    link: "https://github.com/mark-okoth",
   },
 ];
 
